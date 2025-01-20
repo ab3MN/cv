@@ -1,0 +1,148 @@
+.home {
+  position: relative;
+}
+
+.download__button,
+.change-theme {
+  position: absolute;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--text-color);
+  top: 2.2rem;
+}
+
+.change-theme {
+  right: 0;
+}
+
+.download__button {
+  display: none;
+  left: 0;
+}
+
+.change-theme,
+.download__button:hover {
+  color: var(--title-color);
+}
+
+.home__container {
+  gap: 3rem;
+}
+
+.home__data {
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.home__img {
+  width: 120px;
+  height: 168px;
+  border-radius: 5%;
+  justify-self: center;
+  margin-bottom: var(--mb-1);
+}
+
+.home__title {
+  font-size: var(--h1-font-size);
+}
+
+.home__profession {
+  font-size: var(--normal-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.home__address {
+  gap: 1rem;
+}
+
+.home__information {
+  display: flex;
+  align-items: center;
+  font-size: var(--small-font-size);
+}
+
+.home__icon {
+  font-size: 1.25rem;
+  margin-right: 0.25rem;
+}
+
+.home__button {
+  display: inline-block;
+  border: 2px solid var(--text-color);
+  color: var(--title-color);
+  padding: 1rem 2rem;
+  border-radius: 0.25rem;
+  transition: 0.3s;
+  font-weight: var(---font-medium);
+  margin-top: var(--mb-3);
+}
+
+.home__button:hover {
+  background-color: var(--text-color);
+  color: var(--container-color);
+}
+
+/*========== SOCILA ==========*/
+.social__container {
+  grid-template-columns: max-content;
+  gap: 1rem;
+}
+
+.social__link {
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+}
+
+.social__link:hover {
+  color: var(--title-color);
+}
+
+.social__icon {
+  font-size: 1.2rem;
+  margin-right: 0.25rem;
+}
+
+/*========== PROFILE ==========*/
+.profile__description {
+  text-align: center;
+}
+
+/*========== EDUCATION ==========*/
+.education__content {
+  display: flex;
+}
+
+.education__time {
+  padding-right: 1rem;
+}
+
+.education__data {
+  gap: 0.5rem;
+}
+
+.education__title {
+  font-size: var(--h3-font-size);
+}
+
+.education__studies {
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+}
+
+.education__year {
+  font-size: var(--smaller-font-size);
+}
+
+/*========== SKILLS ==========*/
+.skills__content {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+}
+
+.skills__list--item {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-3);
+}

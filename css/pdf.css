@@ -1,0 +1,81 @@
+.pdf .download,
+.pdf .change-theme,
+.pdf .scrolltop {
+  display: none;
+}
+
+.pdf .bd-container {
+  max-width: 600px;
+}
+
+.pdf .section {
+  padding: 0.5rem 0 0.8rem;
+}
+
+.pdf .section-title {
+  margin-bottom: 0.75rem;
+}
+
+.pdf .resume__left,
+.pdf .resume__right {
+  padding: 0 1rem;
+}
+
+.pdf .home__img {
+  width: 90px;
+  height: 90px;
+}
+
+.pdf .home__container {
+  gap: 1.5rem;
+}
+
+.pdf .home__data {
+  gap: 0.25rem;
+}
+
+.pdf .social__container,
+.pdf .home__address {
+  gap: 0.75rem;
+}
+
+.pdf .home__icon,
+.pdf .social__icon,
+.pdf .interests__icon {
+  font-size: 1rem;
+}
+
+.pdf .education__container,
+.pdf .experience__container,
+.pdf .certificate__container {
+  gap: 1rem;
+}
+
+.pdf .education__time,
+.pdf .experience__time {
+  padding-right: 0.5rem;
+}
+
+.pdf .rounder {
+  width: 11px;
+  height: 11px;
+  margin-top: 0.22rem;
+}
+
+.pdf .line {
+  width: 1px;
+  transform: translate(5px, 0);
+}
+
+.pdf .education__data,
+.pdf .experience__data {
+  gap: 0.25rem;
+}
+
+.pdf .skills__item {
+  margin-bottom: var(--mb-1);
+}
+
+.pdf .interests__container {
+  column-gap: 2.5rem;
+}
